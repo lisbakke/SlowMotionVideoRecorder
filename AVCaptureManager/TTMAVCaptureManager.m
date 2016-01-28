@@ -495,7 +495,7 @@
 
     self.previewLayer.frame = previewView.bounds;
 
-    [[self.previewLayer connection] setVideoOrientation:self.videoConnection.videoOrientation];
+    [[self.previewLayer connection] setVideoOrientation:referenceOrientation];
 
     readyToRecordVideo = NO;
 }
